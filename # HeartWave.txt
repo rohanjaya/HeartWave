@@ -1,0 +1,10 @@
+# HeartWave
+
+## App Description
+User profiles where you can rate and review songs. Also, you can make an ordered list or unordered collection of songs.
+
+
+## Tech stack
+- Java
+- React
+
