@@ -11,7 +11,7 @@ User profiles where you can rank and review songs. Also, you can make an ordered
 
 Start musicbrainz docker-compose
 ```
-cd /home/rohanjjay/musicbrainz/musicbrainz-docker
+cd ~/musicbrainz/musicbrainz-docker
 docker compose build
 docker compose run --rm musicbrainz createdb.sh -fetch
 docker compose up -d
@@ -19,7 +19,7 @@ docker compose up -d
 
 Run test script to print artists
 ```
-cd /home/rohanjjay/HeartWave
+cd ~/HeartWave
 source venv/bin/activate
 python test.py
 ```

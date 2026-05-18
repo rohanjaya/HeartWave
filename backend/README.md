@@ -7,21 +7,21 @@ Spring Boot backend for the HeartWave song review app.
 Start the MusicBrainz Postgres container:
 
 ```bash
-cd /home/rohanjjay/musicbrainz/musicbrainz-docker
+cd ~/musicbrainz/musicbrainz-docker
 docker compose up -d db
 ```
 
 Run the backend:
 
 ```bash
-cd /home/rohanjjay/HeartWave/backend
+cd ~/HeartWave/backend
 ./mvnw spring-boot:run
 ```
 
 Run tests:
 
 ```bash
-cd /home/rohanjjay/HeartWave/backend
+cd ~/HeartWave/backend
 ./mvnw test
 ```
 
